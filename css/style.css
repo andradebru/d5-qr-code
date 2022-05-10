@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+  margin: 0;
 }
 
 .container {
@@ -48,3 +49,5 @@ p {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
+
+@media (maxwidth);
