@@ -57,4 +57,11 @@ p {
   text-decoration: none;
 }
 
-/* @media (max-width: 375px); */
+@media (max-width: 375px) {
+  .qr-box {
+    width: 75%;
+  }
+  h1 {
+    font-size: 18px;
+  }
+}
