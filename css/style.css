@@ -2,6 +2,9 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+body {
+  background-color: aqua;
+}
 
 .attribution {
   font-size: 11px;
@@ -9,13 +12,21 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-box {
+  justify-content: center;
   text-align: center;
   background-color: white;
   border-radius: 15px;
-  width: 25%;
+  width: 400px;
   padding: 25px;
   box-shadow: 0 0 1em #747474;
 }
