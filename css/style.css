@@ -2,12 +2,9 @@
   font-family: "Outfit", sans-serif;
 }
 
-html {
-  height: 100vh;
-}
-
+html,
 body {
-  min-height: 100vh;
+  height: 100vh;
   background-color: #d5e1ef;
   display: flex;
   justify-content: center;
